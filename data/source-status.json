@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-03-08T12:42:27.811Z",
+  "generated_at": "2026-03-08T12:47:18.727Z",
   "sites": [],
   "successful_sites": 0,
   "failed_sites": [],
   "zero_item_sites": [],
   "fetched_raw_items": 0,
-  "items_before_topic_filter": 50356,
-  "items_in_24h": 578,
+  "items_before_topic_filter": 50354,
+  "items_in_24h": 575,
   "rss_opml": {
     "enabled": false,
     "path": null,

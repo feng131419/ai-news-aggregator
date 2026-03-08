@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-08T12:42:27.811Z",
+  "generated_at": "2026-03-08T12:47:18.727Z",
   "window_hours": 24,
-  "total_items": 578,
-  "total_items_ai_raw": 625,
-  "total_items_raw": 4964,
-  "total_items_all_mode": 4658,
+  "total_items": 575,
+  "total_items_ai_raw": 622,
+  "total_items_raw": 4950,
+  "total_items_all_mode": 4644,
   "topic_filter": "ai_tech_robotics",
   "archive_total": 99310,
   "site_count": 9,
@@ -13,14 +13,14 @@
     {
       "site_id": "buzzing",
       "site_name": "Buzzing",
-      "count": 206,
-      "raw_count": 1398
+      "count": 203,
+      "raw_count": 1385
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "count": 95,
-      "raw_count": 433
+      "raw_count": 432
     },
     {
       "site_id": "tophub",
@@ -9838,57 +9838,6 @@
       "title_en": null,
       "title_zh": "让 GPT5.3 驱动的OpenClaw，点评下KimiClaw、Maxclaw、Arkclaw的智力水平。。。",
       "title_bilingual": "让 GPT5.3 驱动的OpenClaw，点评下KimiClaw、Maxclaw、Arkclaw的智力水平。。。",
-      "description_original": "",
-      "description_zh": null
-    },
-    {
-      "id": "792a4171adc17dfce79edc7855fd2209540e528e",
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "source": "phys.org",
-      "title": "研究首次揭示识别夜间飞行鸟类个体的新技术",
-      "url": "https://phys.org/news/2026-03-reveals-technique-individual-night-flying.html",
-      "published_at": "2026-03-07T12:43:55.322Z",
-      "first_seen_at": "2026-03-07T14:15:29.967Z",
-      "last_seen_at": "2026-03-08T11:36:09.436Z",
-      "title_original": "研究首次揭示识别夜间飞行鸟类个体的新技术",
-      "title_en": null,
-      "title_zh": "研究首次揭示识别夜间飞行鸟类个体的新技术",
-      "title_bilingual": "研究首次揭示识别夜间飞行鸟类个体的新技术",
-      "description_original": "",
-      "description_zh": null
-    },
-    {
-      "id": "d998e62c65afef2dceafefb03f13ccd58e6f7d9a",
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "source": "news.google.com",
-      "title": "中期选举临近，共和党面临的经济预警信号不断累积 - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWllMNVEtdU1pSjVRN3huejdORTc2bjNTQUZOM3NQcUVPbkZSTnVpWVMxTlNaSmZsMWtmYkFDOTl3MERZOHl2bXl1dnRYdXBuVkpPb2hIeHQtUDU5WVYyTkMwOVAzUkloN29MQmxDNm5rNjFGdFM5NmlacEI1bDlQbHh5NW9oN2c?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "published_at": "2026-03-07T12:43:53.114Z",
-      "first_seen_at": "2026-03-07T14:15:29.967Z",
-      "last_seen_at": "2026-03-07T16:16:24.427Z",
-      "title_original": "中期选举临近，共和党面临的经济预警信号不断累积 - The New York Times",
-      "title_en": null,
-      "title_zh": "中期选举临近，共和党面临的经济预警信号不断累积 - The New York Times",
-      "title_bilingual": "中期选举临近，共和党面临的经济预警信号不断累积 - The New York Times",
-      "description_original": "",
-      "description_zh": null
-    },
-    {
-      "id": "56d5c5cf46f68d64699d1e03b16164c93052e280",
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "source": "news.google.com",
-      "title": "伊朗战争爆发时滞留海外的美国人描述返乡困境 - PBS",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbVlEeU5yU0F6ZVp2S3F6TEwwQU4tLWt0MzBjUkZ5elVjQ0pUbFdrazJaVl9BV1lzQ0JWSDgtYXZTRmlxd0l2LTVnZW56YUpIV0hzMFdScFkyUDhFY0k3RksybFlWQTg3MW1ZZW5uR0ljd0p5THJhZkNiVWlGUklxc1RNdDR6dU9fNkNPUlhoaURYVDJGY0dsaldWZ1daUmFMZVA4b0JCQXQ5dGhnY1hLQUt3?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "published_at": "2026-03-07T12:43:53.103Z",
-      "first_seen_at": "2026-03-07T14:15:29.967Z",
-      "last_seen_at": "2026-03-07T16:16:24.427Z",
-      "title_original": "伊朗战争爆发时滞留海外的美国人描述返乡困境 - PBS",
-      "title_en": null,
-      "title_zh": "伊朗战争爆发时滞留海外的美国人描述返乡困境 - PBS",
-      "title_bilingual": "伊朗战争爆发时滞留海外的美国人描述返乡困境 - PBS",
       "description_original": "",
       "description_zh": null
     }
