@@ -1,44 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<opml version="2.0">
+<opml version="1.0">
   <head>
-    <title>丰格的终极全能信息雷达</title>
+    <title>自定义 RSS 订阅</title>
   </head>
   <body>
-    <outline text="AI 科技资讯">
-      <outline text="OpenAI News" title="OpenAI News" type="rss" xmlUrl="https://openai.com/news/rss.xml" htmlUrl="https://openai.com/news"/>
-      <outline text="Hugging Face Blog" title="Hugging Face Blog" type="rss" xmlUrl="https://huggingface.co/blog/feed.xml" htmlUrl="https://huggingface.co/blog"/>
-      <outline text="InfoQ CN" title="InfoQ CN" type="rss" xmlUrl="https://www.infoq.cn/feed" htmlUrl="https://www.infoq.cn/"/>
+    <outline text="PM官方监控" title="PM官方监控">
+      <outline text="PM-International 德国官方" type="rss" xmlUrl="https://rss.app/feeds/jfyP5ACL9WVryPaD.xml"/>
     </outline>
 
     <outline text="商业哲学与单人创业" title="商业哲学与单人创业">
-      <outline text="Balaji S. Srinivasan / @balajis" title="Balaji S. Srinivasan / @balajis" type="rss" xmlUrl="https://nitter.net/balajis/rss" htmlUrl="https://nitter.net/balajis"/>
-      <outline text="Naval" title="Naval" type="rss" xmlUrl="https://nav.al/feed" htmlUrl="https://nav.al/"/>
-      <outline text="Dan Koe" title="Dan Koe" type="rss" xmlUrl="https://thedankoe.com/feed/" htmlUrl="https://thedankoe.com/"/>
-      <outline text="Paul Graham" title="Paul Graham" type="rss" xmlUrl="http://paulgraham.com/rss.html" htmlUrl="http://paulgraham.com/rss.html"/>
-      <outline text="David Perell" title="David Perell" type="rss" xmlUrl="https://perell.com/feed/" htmlUrl="https://perell.com/"/>
+      <outline text="Balaji S. Srinivasan" type="rss" xmlUrl="https://nitter.net/balajis/rss"/>
+      <outline text="Naval" type="rss" xmlUrl="https://nav.al/feed"/>
+      <outline text="Dan Koe" type="rss" xmlUrl="https://thedankoe.com/feed/"/>
+      <outline text="Paul Graham" type="rss" xmlUrl="http://paulgraham.com/rss.html"/>
+      <outline text="David Perell" type="rss" xmlUrl="https://perell.com/feed/"/>
     </outline>
 
     <outline text="思维模型与系统思考" title="思维模型与系统思考">
-      <outline text="Farnam Street" title="Farnam Street" type="rss" xmlUrl="https://fs.blog/feed/" htmlUrl="https://fs.blog/"/>
-      <outline text="Tiago Forte" title="Tiago Forte" type="rss" xmlUrl="https://fortelabs.com/feed/" htmlUrl="https://fortelabs.com/"/>
-      <outline text="Scott Young" title="Scott Young" type="rss" xmlUrl="https://www.scotthyoung.com/blog/feed/" htmlUrl="https://www.scotthyoung.com/blog"/>
-      <outline text="Kevin Kelly (The Technium)" title="Kevin Kelly (The Technium)" type="rss" xmlUrl="https://kk.org/thetechnium/feed/" htmlUrl="https://kk.org/thetechnium"/>
+      <outline text="Farnam Street" type="rss" xmlUrl="https://fs.blog/feed/"/>
+      <outline text="Tiago Forte" type="rss" xmlUrl="https://fortelabs.com/feed/"/>
+      <outline text="Scott Young" type="rss" xmlUrl="https://www.scotthyoung.com/blog/feed/"/>
+      <outline text="Kevin Kelly" type="rss" xmlUrl="https://kk.org/thetechnium/feed/"/>
     </outline>
 
     <outline text="前沿AI与科技" title="前沿AI与科技">
-      <outline text="One Useful Thing (Ethan Mollick)" title="One Useful Thing (Ethan Mollick)" type="rss" xmlUrl="https://www.oneusefulthing.org/feed" htmlUrl="https://www.oneusefulthing.org/"/>
+      <outline text="One Useful Thing" type="rss" xmlUrl="https://www.oneusefulthing.org/feed"/>
     </outline>
 
     <outline text="生命科学与极致健康" title="生命科学与极致健康">
-      <outline text="FoundMyFitness" title="FoundMyFitness" type="rss" xmlUrl="https://www.foundmyfitness.com/rss" htmlUrl="https://www.foundmyfitness.com/rss"/>
-      <outline text="protocol" title="protocol" type="rss" xmlUrl="https://protocol.bryanjohnson.com/feed" htmlUrl="https://protocol.bryanjohnson.com/"/>
-      <outline text="Peter Attia, MD" title="Peter Attia, MD" type="rss" xmlUrl="https://peterattiamd.com/feed/" htmlUrl="https://peterattiamd.com/"/>
+      <outline text="FoundMyFitness" type="rss" xmlUrl="https://www.foundmyfitness.com/rss"/>
+      <outline text="Bryan Johnson Protocol" type="rss" xmlUrl="https://protocol.bryanjohnson.com/feed"/>
+      <outline text="Peter Attia, MD" type="rss" xmlUrl="https://peterattiamd.com/feed/"/>
     </outline>
 
-    <outline text="播客与视频源 (自动同步)" title="播客与视频源 (自动同步)">
-      <outline text="Alex Hormozi (YouTube)" title="Alex Hormozi (YouTube)" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC6PFOkEGBzJWaM5Dq4D7uSg" htmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC6PFOkEGBzJWaM5Dq4D7uSg"/>
-      <outline text="Ali Abdaal (YouTube)" title="Ali Abdaal (YouTube)" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCOOae5nYA7VqaXzerajD0lg" htmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCOOae5nYA7VqaXzerajD0lg"/>
-      <outline text="Huberman Lab (Podcast)" title="Huberman Lab (Podcast)" type="rss" xmlUrl="https://feeds.megaphone.fm/hubermanlab" htmlUrl="https://hubermanlab.com/"/>
+    <outline text="播客与视频源" title="播客与视频源">
+      <outline text="Alex Hormozi" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC6PFOkEGBzJWaM5Dq4D7uSg"/>
+      <outline text="Ali Abdaal" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCOOae5nYA7VqaXzerajD0lg"/>
+      <outline text="Huberman Lab" type="rss" xmlUrl="https://feeds.megaphone.fm/hubermanlab"/>
     </outline>
   </body>
 </opml>
