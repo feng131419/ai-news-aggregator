@@ -67,51 +67,79 @@ export async function addBilingualFields(
   const enrich = async (item: ArchiveItem, allowTranslate: boolean): Promise<ArchiveItem> => {
     const out = { ...item };
     const title = (out.title || '').trim();
+    // RSS 解析出来的正文或摘要通常在 contentSnippet, content, 或 description 字段中
+    // 这里做个兼容性提取
+    const description = (out.description || (out as any).contentSnippet || (out as any).content || '').trim();
     const url = normalizeUrl(out.url || '');
 
+    // 初始化标题字段
     out.title_original = title;
     out.title_en = null;
     out.title_zh = null;
     out.title_bilingual = title;
+    
+    // 初始化正文字段 (新增)
+    out.description_original = description;
+    out.description_zh = null;
 
+    // --- 1. 处理标题翻译 ---
     if (hasCjk(title)) {
       out.title_zh = title;
-      return out;
-    }
+    } else if (isMostlyEnglish(title)) {
+      out.title_en = title;
+      let zhTitle = zhByUrl.get(url) || cache.get(title) || null;
 
-    if (!isMostlyEnglish(title)) {
-      return out;
-    }
-
-    out.title_en = title;
-
-    let zhTitle = zhByUrl.get(url) || null;
-    if (!zhTitle) {
-      zhTitle = cache.get(title) || null;
-    }
-
-    if (!zhTitle && allowTranslate && translatedNow < maxNewTranslations) {
-      const tr = await translateToZhCN(title);
-      if (tr && hasCjk(tr)) {
-        zhTitle = tr;
-        cache.set(title, tr);
-        translatedNow++;
+      if (!zhTitle && allowTranslate && translatedNow < maxNewTranslations) {
+        const tr = await translateToZhCN(title);
+        if (tr && hasCjk(tr)) {
+          zhTitle = tr;
+          cache.set(title, tr);
+          translatedNow++;
+        }
+      }
+      if (zhTitle) {
+        out.title_zh = zhTitle;
+        out.title_bilingual = `${zhTitle} / ${title}`;
       }
     }
 
-    if (zhTitle) {
-      out.title_zh = zhTitle;
-      out.title_bilingual = `${zhTitle} / ${title}`;
+    // --- 2. 处理正文翻译 (新增核心逻辑) ---
+    if (description) {
+      if (hasCjk(description)) {
+        out.description_zh = description;
+      } else if (isMostlyEnglish(description)) {
+        // 先查缓存，避免重复翻译长文本
+        let zhDesc = cache.get(description.substring(0, 100)) || null; 
+
+        if (!zhDesc && allowTranslate && translatedNow < maxNewTranslations) {
+          // Google API 有长度限制，如果正文过长，截取前 2000 个字符进行翻译
+          const textToTranslate = description.length > 2000 ? description.substring(0, 2000) + '...' : description;
+          const trDesc = await translateToZhCN(textToTranslate);
+          
+          if (trDesc && hasCjk(trDesc)) {
+            zhDesc = trDesc;
+            // 使用正文前100个字符作为 key 进行缓存
+            cache.set(description.substring(0, 100), trDesc);
+            translatedNow++; // 长文本翻译也计入额度消耗
+          }
+        }
+        
+        if (zhDesc) {
+          out.description_zh = zhDesc;
+        }
+      }
     }
 
     return out;
   };
 
+  // AI 组（也就是通过了你那个顶级信源白名单的组）允许调用 API 翻译
   const aiOut: ArchiveItem[] = [];
   for (const it of itemsAi) {
     aiOut.push(await enrich(it, true));
   }
 
+  // All 组不调用翻译，只匹配已有的缓存
   const allOut: ArchiveItem[] = [];
   for (const it of itemsAll) {
     allOut.push(await enrich(it, false));
