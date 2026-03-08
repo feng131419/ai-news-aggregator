@@ -118,15 +118,15 @@ async function main(): Promise<number> {
 
   const archive = await loadArchive(archivePath);
 
-// const fetchers = createAllFetchers();
-// const limit = pLimit(5);
+ const fetchers = createAllFetchers();
+ const limit = pLimit(5);
 
-// console.log('\n');
-// console.log('📡 Fetching from built-in sources...');
+ console.log('\n');
+ console.log('📡 Fetching from built-in sources...');
 
-// const fetchResults = await Promise.all(
-//   fetchers.map((f) => limit(() => runFetcher(f, now, true)))
-// );
+ const fetchResults = await Promise.all(
+   fetchers.map((f) => limit(() => runFetcher(f, now, true)))
+ );
 
 const rawItems: RawItem[] = [];
 const statuses: FetchStatus[] = [];
