@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-03-08T13:37:36.156Z",
+  "window_hours": 24,
+  "total_items": 2,
+  "total_items_ai_raw": 2,
+  "total_items_raw": 2,
+  "total_items_all_mode": 2,
+  "topic_filter": "ai_tech_robotics",
+  "archive_total": 558,
+  "site_count": 1,
+  "source_count": 1,
+  "site_stats": [
+    {
+      "site_id": "opmlrss",
+      "site_name": "OPML RSS",
+      "count": 2,
+      "raw_count": 2
+    }
+  ],
+  "items": [
+    {
+      "id": "68c60b8ce14716343ba8ebf98d423faae7e2d524",
+      "site_id": "opmlrss",
+      "site_name": "OPML RSS",
+      "source": "PM-International 德国官方",
+      "title": "Happy International Women’s Day 💜🚺 to all the inspiring FitLine women - mothers, entrepreneurs, wives, and leaders. Wh...",
+      "url": "https://www.facebook.com/reel/792352526725935",
+      "published_at": "2026-03-08T13:02:53Z",
+      "first_seen_at": "2026-03-08T13:37:36.156Z",
+      "last_seen_at": "2026-03-08T13:37:36.156Z",
+      "title_original": "Happy International Women’s Day 💜🚺 to all the inspiring FitLine women - mothers, entrepreneurs, wives, and leaders. Wh...",
+      "title_en": "Happy International Women’s Day 💜🚺 to all the inspiring FitLine women - mothers, entrepreneurs, wives, and leaders. Wh...",
+      "title_zh": "祝所有鼓舞人心的 FitLine 女性——母亲、企业家、妻子和领导者国际妇女节快乐。什...",
+      "title_bilingual": "祝所有鼓舞人心的 FitLine 女性——母亲、企业家、妻子和领导者国际妇女节快乐。什... / Happy International Women’s Day 💜🚺 to all the inspiring FitLine women - mothers, entrepreneurs, wives, and leaders. Wh...",
+      "description_original": "",
+      "description_zh": null
+    },
+    {
+      "id": "5fa6ef183940d26440cf64065601ea46a0aadaf3",
+      "site_id": "opmlrss",
+      "site_name": "OPML RSS",
+      "source": "PM-International 德国官方",
+      "title": "How to win the long game #rolfsorg #sundaysinspirations",
+      "url": "https://www.facebook.com/reel/814306571698563",
+      "published_at": "2026-03-08T09:00:45Z",
+      "first_seen_at": "2026-03-08T13:37:36.156Z",
+      "last_seen_at": "2026-03-08T13:37:36.156Z",
+      "title_original": "How to win the long game #rolfsorg #sundaysinspirations",
+      "title_en": "How to win the long game #rolfsorg #sundaysinspirations",
+      "title_zh": "如何赢得持久战#rolfsorg #sundaysinspirations",
+      "title_bilingual": "如何赢得持久战#rolfsorg #sundaysinspirations / How to win the long game #rolfsorg #sundaysinspirations",
+      "description_original": "",
+      "description_zh": null
+    }
+  ]
+}
