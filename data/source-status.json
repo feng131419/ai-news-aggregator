@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-21T03:36:16.940Z",
+  "generated_at": "2026-05-21T07:51:09.250Z",
   "sites": [
     {
       "site_id": "techurls",
       "site_name": "TechURLs",
       "ok": true,
       "item_count": 405,
-      "duration_ms": 482,
+      "duration_ms": 479,
       "error": null
     },
     {
@@ -14,15 +14,15 @@
       "site_name": "Buzzing",
       "ok": true,
       "item_count": 744,
-      "duration_ms": 258,
+      "duration_ms": 273,
       "error": null
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "ok": true,
-      "item_count": 363,
-      "duration_ms": 22654,
+      "item_count": 413,
+      "duration_ms": 10866,
       "error": null
     },
     {
@@ -30,23 +30,23 @@
       "site_name": "BestBlogs",
       "ok": true,
       "item_count": 0,
-      "duration_ms": 682,
+      "duration_ms": 1016,
       "error": null
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
-      "ok": false,
-      "item_count": 0,
-      "duration_ms": 244808,
-      "error": "This operation was aborted"
+      "ok": true,
+      "item_count": 3057,
+      "duration_ms": 1007,
+      "error": null
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "ok": true,
-      "item_count": 79,
-      "duration_ms": 570,
+      "item_count": 78,
+      "duration_ms": 751,
       "error": null
     },
     {
@@ -54,7 +54,7 @@
       "site_name": "AI HubToday",
       "ok": true,
       "item_count": 10,
-      "duration_ms": 235,
+      "duration_ms": 171,
       "error": null
     },
     {
@@ -62,7 +62,7 @@
       "site_name": "AIbase",
       "ok": true,
       "item_count": 20,
-      "duration_ms": 2057,
+      "duration_ms": 13071,
       "error": null
     },
     {
@@ -70,7 +70,7 @@
       "site_name": "AI今日热榜",
       "ok": true,
       "item_count": 0,
-      "duration_ms": 46,
+      "duration_ms": 36,
       "error": null
     },
     {
@@ -78,15 +78,15 @@
       "site_name": "NewsNow",
       "ok": true,
       "item_count": 147,
-      "duration_ms": 1667,
+      "duration_ms": 1379,
       "error": null
     },
     {
       "site_id": "youtube",
       "site_name": "YouTube",
       "ok": true,
-      "item_count": 0,
-      "duration_ms": 185,
+      "item_count": 45,
+      "duration_ms": 262,
       "error": null
     },
     {
@@ -94,7 +94,7 @@
       "site_name": "新智元",
       "ok": true,
       "item_count": 65,
-      "duration_ms": 4483,
+      "duration_ms": 4325,
       "error": null
     },
     {
@@ -102,7 +102,7 @@
       "site_name": "微信公众号",
       "ok": true,
       "item_count": 171,
-      "duration_ms": 1040,
+      "duration_ms": 960,
       "error": null
     },
     {
@@ -110,22 +110,19 @@
       "site_name": "OPML RSS",
       "ok": true,
       "item_count": 571,
-      "duration_ms": 7550,
+      "duration_ms": 10303,
       "error": "5 feeds failed"
     }
   ],
-  "successful_sites": 13,
-  "failed_sites": [
-    "tophub"
-  ],
+  "successful_sites": 14,
+  "failed_sites": [],
   "zero_item_sites": [
     "bestblogs",
-    "aihot",
-    "youtube"
+    "aihot"
   ],
-  "fetched_raw_items": 2575,
-  "items_before_topic_filter": 40254,
-  "items_in_24h": 868,
+  "fetched_raw_items": 5726,
+  "items_before_topic_filter": 40719,
+  "items_in_24h": 902,
   "rss_opml": {
     "enabled": true,
     "path": "/home/runner/work/ai-news-aggregator/ai-news-aggregator/feeds/follow.opml",
@@ -153,7 +150,7 @@
         "effective_feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6PFOkEGBzJWaM5Dq4D7uSg",
         "ok": false,
         "item_count": 0,
-        "duration_ms": 482,
+        "duration_ms": 680,
         "error": "Status code 404",
         "skipped": false,
         "skip_reason": null,
@@ -167,7 +164,7 @@
         "effective_feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCOOae5nYA7VqaXzerajD0lg",
         "ok": false,
         "item_count": 0,
-        "duration_ms": 481,
+        "duration_ms": 689,
         "error": "Status code 404",
         "skipped": false,
         "skip_reason": null,
@@ -181,7 +178,7 @@
         "effective_feed_url": "https://nitter.net/balajis/rss",
         "ok": true,
         "item_count": 20,
-        "duration_ms": 805,
+        "duration_ms": 1128,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -195,7 +192,7 @@
         "effective_feed_url": "https://thedankoe.com/feed/",
         "ok": true,
         "item_count": 1,
-        "duration_ms": 529,
+        "duration_ms": 561,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -209,7 +206,7 @@
         "effective_feed_url": "https://perell.com/feed/",
         "ok": true,
         "item_count": 45,
-        "duration_ms": 290,
+        "duration_ms": 400,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -223,7 +220,7 @@
         "effective_feed_url": "https://fs.blog/feed/",
         "ok": true,
         "item_count": 20,
-        "duration_ms": 184,
+        "duration_ms": 317,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -237,7 +234,7 @@
         "effective_feed_url": "https://www.foundmyfitness.com/rss",
         "ok": false,
         "item_count": 0,
-        "duration_ms": 656,
+        "duration_ms": 846,
         "error": "Status code 404",
         "skipped": false,
         "skip_reason": null,
@@ -251,7 +248,7 @@
         "effective_feed_url": "https://feeds.megaphone.fm/hubermanlab",
         "ok": true,
         "item_count": 401,
-        "duration_ms": 478,
+        "duration_ms": 824,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -265,7 +262,7 @@
         "effective_feed_url": "https://kk.org/thetechnium/feed/",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 297,
+        "duration_ms": 481,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -279,7 +276,7 @@
         "effective_feed_url": "https://nav.al/feed",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 165,
+        "duration_ms": 187,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -293,7 +290,7 @@
         "effective_feed_url": "https://www.oneusefulthing.org/feed",
         "ok": true,
         "item_count": 20,
-        "duration_ms": 343,
+        "duration_ms": 592,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -307,7 +304,7 @@
         "effective_feed_url": "http://paulgraham.com/rss.html",
         "ok": false,
         "item_count": 0,
-        "duration_ms": 825,
+        "duration_ms": 937,
         "error": "Unexpected close tag\nLine: 2\nColumn: 7\nChar: >",
         "skipped": false,
         "skip_reason": null,
@@ -321,7 +318,7 @@
         "effective_feed_url": "https://peterattiamd.com/feed/",
         "ok": true,
         "item_count": 24,
-        "duration_ms": 543,
+        "duration_ms": 839,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -335,7 +332,7 @@
         "effective_feed_url": "https://protocol.bryanjohnson.com/feed",
         "ok": true,
         "item_count": 0,
-        "duration_ms": 547,
+        "duration_ms": 713,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -349,7 +346,7 @@
         "effective_feed_url": "https://rss.app/feeds/jfyP5ACL9WVryPaD.xml",
         "ok": false,
         "item_count": 0,
-        "duration_ms": 210,
+        "duration_ms": 190,
         "error": "Status code 402",
         "skipped": false,
         "skip_reason": null,
@@ -363,7 +360,7 @@
         "effective_feed_url": "https://www.scotthyoung.com/blog/feed/",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 491,
+        "duration_ms": 576,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -377,7 +374,7 @@
         "effective_feed_url": "https://fortelabs.com/feed/",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 224,
+        "duration_ms": 343,
         "error": null,
         "skipped": false,
         "skip_reason": null,
